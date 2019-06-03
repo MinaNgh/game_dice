@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:#e2b5b5 ;
+}
+.wrapper{
+    position: absolute;
+    width:1000px;
+    height:400px; 
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    box-shadow:  0px 10px 50px rgba(0, 0, 0, 0.3);
+    
+}
+.player{
+    float: left;
+    width: 50%;
+   height: 100%;
+    background: #fff;
+}
+
+.playerName, .score{
+    font-size: 3vw;
+    text-align: center;
+    margin: 50px;
+}
+.active{
+    background: #f1f1f1;
+}
+.active .playerName::after{
+    content: "\2022";
+    color: red;
+    position: absolute;
+/*    top:20px;*/
+    left: 34%;
+    font-weight: 30px;
+}
+.score {
+    color: darkred;
+}
+.currentScoreBox{
+    height:70px;
+    width: 100px;
+    display: block;
+    margin:auto;
+    text-align: center;
+    background: darkred;
+    
+    
+}
+.currentScore, .current{
+   
+    line-height: 30px;
+    height: 30px;
+}
+.currentScore{
+    color: #fff;
+    font-size: 20px;
+}
+i{
+    color: darkred;
+}
+.btn{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    border: none;
+    background: transparent;
+    font-family:inherit;
+    font-size: 20px;
+}
+.btn-new {
+    top:50px;
+}
+.btn-roll{
+    top:270px
+}
+.btn-hold{
+    top: 330px;
+}
+.dice{
+    position: absolute;
+    width:100px;
+    height: 100px;
+    transform: translateX(50%);
+    left: 40%;
+    top: 30%;
+    box-shadow: 0px 10px 50px  rgba(0,0,0,0.3);
+}
