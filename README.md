@@ -1,4 +1,4 @@
-# game_dice
+# Pig Game
 
 GAME RULES:
 
