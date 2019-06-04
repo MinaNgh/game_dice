@@ -35,8 +35,7 @@ body{
     content: "\2022";
     color: red;
     position: absolute;
-/*    top:20px;*/
-    left: 34%;
+
     font-weight: 30px;
 }
 .score {
